@@ -1,0 +1,29 @@
+{
+  "name": "DeveloperProfileGenerator",
+  "version": "1.0.0",
+  "description": "Create a command-line application that dynamically generates a PDF profile from a GitHub username. The application will be invoked with the following command:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loneyb11/DeveloperProfileGenerator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loneyb11/DeveloperProfileGenerator/issues"
+  },
+  "homepage": "https://github.com/loneyb11/DevelopeProfileGenerator#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.0.0",
+    "electron": "^5.0.3",
+    "electron-html-to": "^2.6.0",
+    "inquirer": "^6.3.1",
+    "open": "^6.4.0",
+    "path": "^0.12.7"
+  }
+}
